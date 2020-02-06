@@ -1,0 +1,36 @@
+body {
+	background-color: #FFB6A3;
+}
+
+h1 {
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	color: #697CB3;
+	font-size: 42px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #6E86CC;
+	font-size: 25px;
+}
+
+h3 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: crimson;
+	font-size: 25px;
+}
+
+p {
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+}
+
+ul {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Oxygen', sans-serif;
+}
