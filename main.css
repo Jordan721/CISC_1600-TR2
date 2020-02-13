@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(Pics/david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
