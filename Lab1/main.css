@@ -1,48 +1,74 @@
 body {
-    background-color: #FFB6A3;
+	background-color: #FFB6A3;
 }
 
 h1 {
-    font-family: 'Sigmar One', cursive;
-    text-align: center;
-    color: #697CB3;
-    font-size: 42px;
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	color: #697CB3;
+	font-size: 42px;
 }
 
 h2 {
-    text-align: center;
-    font-family: 'Noto Sans TC', sans-serif;
-    color: #6E86CC;
-    font-size: 25px;
+	text-align: center;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #6E86CC;
+	font-size: 25px;
 }
 
 h3 {
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    color: crimson;
-    font-size: 25px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: crimson;
+	font-size: 25px;
 }
 
 p {
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    font-size: 22px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
 }
 
-ul {
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Oxygen', sans-serif;
+* {
+	box-sizing: border-box;
 }
 
-.carousel {
-    width: 400px;
-    height: 600px;
-    margin: 0 auto;
+.menu {
+	float: left;
+	width: 20%;
+	text-align: center;
 }
 
+.menu a {
+	background-color: #e5e5e5;
+	padding: 8px;
+	margin-top: 7px;
+	display: block;
+	width: 100%;
+	color: black;
+}
 
+.main {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+}
 
+.right {
+	background-color: #e5e5e5;
+	float: left;
+	width: 20%;
+	padding: 15px;
+	margin-top: 7px;
+	text-align: center;
+}
 
+@media only screen and (max-width:620px) {
 
-.
+	/* For mobile phones: */
+	.menu,
+	.main,
+	.right {
+		width: 100%;
+	}
+}
