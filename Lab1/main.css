@@ -33,15 +33,11 @@ p {
 }
 
 table {
-	width: 70%;
-	margin-left: 15%;
+	width: 200%;
+	margin-left: 30%;
 	margin-right: 15%;
 	border-collapse: collapse;
 	border-bottom: 1px solid #ddd;
-}
-
-* {
-	box-sizing: border-box;
 }
 
 .menu {
@@ -55,7 +51,7 @@ table {
 	padding: 8px;
 	margin-top: 7px;
 	display: block;
-	width: 100%;
+	width: 75%;
 	color: grey;
 	font-family: 'Odibee Sans', cursive;
 	font-size: 20px;
@@ -63,19 +59,28 @@ table {
 
 .main {
 	float: left;
-	width: 60%;
+	width: 25%;
 	padding: 0 20px;
+}
+
+.right {
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
 }
 
 @media only screen and (max-width:620px) {
 
 	/* For mobile phones: */
 	.menu,
-	.main,
-	.right {
-		width: 50%;
+	.main{
+		width: 40%;
 	}
 }
+
+
 
 /*For Slide Show*/
 
@@ -113,7 +118,7 @@ table {
 	animation-delay: 10s;
 }
 
-.fling-minislide img:nth-child(3) {
+.fling-minislideimg:nth-child(3) {
 	animation-delay: 15s;
 }
 
