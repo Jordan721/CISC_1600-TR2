@@ -4,24 +4,26 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Jordan's Lab 1 CISC 1600 Website</title>
+	<title>My Top 5 Favourite Movies</title>
 	<link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
-	<!--Bootstrap CSS-->
+	<link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 	<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
-		<h1>Welcome to Jordan's Lab 1 Webpage</h1>
+		<h1>Lab 1 Webpage</h1>
 	</div>
 
 	<div style="overflow:auto">
 		<div class="menu">
+			<a href="../index.html">Home</a>
+			<a href="../Lab2/index.html">Lab 2</a>
 			<a href="https://en.wikipedia.org/wiki/The_Happening_(2008_film)">The Happening (2008 Film)</a>
 			<a href="https://en.wikipedia.org/wiki/South_Park:_Bigger,_Longer_%26_Uncut">South Park Biggger Longer and Uncut</a>
 			<a href="https://en.wikipedia.org/wiki/Enemy_of_the_State_(film)">Enemy of the State</a>
@@ -30,38 +32,68 @@
 		</div>
 
 		<div class="main">
-			<h2>Lorum Ipsum</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			<h2>Top 5 Favourite Movies</h2>
+
+			<table border=1>
+				<tr>
+					<td> Movies </td>
+					<td> Synopsis </td>
+				</tr>
+				<tr>
+					<td> The Happening </td>
+					<td> The film follows a group of four as they try to escape an inexplicable natural disaster.</td>
+				</tr>
+				<tr>
+					<td>South Park Biggger Longer and Uncut</td>
+					<td>The film is primarily centered on themes of censorship and bad parenting; it also serves as a parody and satire of the animated films of the Disney Renaissance, musicals such as Les Misérables, and the controversy surrounding the show itself.</td>
+				</tr>
+				<tr>
+					<td> Enemy of the State</td>
+					<td> The film tells the story of a group of NSA agents conspiring to kill a Congressman and the cover up that ensues after a tape of the murder is discovered. </td>
+				</tr>
+				<tr>
+					<td>Hotel Rwanda</td>
+					<td>Based on the Rwandan genocide, which occurred during the spring of 1994, the film documents Rusesabagina's efforts to save the lives of his family and more than a thousand other refugees by providing them with shelter in the besieged Hôtel des Mille Collines.Hotel Rwanda explores genocide, political corruption, and the repercussions of violence.</td>
+				</tr>
+				<tr>
+					<td>Day of the Dead (1985 Film)</td>
+					<td>The film is the third film in Romero's Night of the Living Dead series. Romero described the film as a "tragedy about how a lack of human communication causes chaos and collapse even in this small little pie slice of society."</td>
+				</tr>
+			</table>
+
 		</div>
 
-		<h2 style="text-align:center">Multiple Slideshows</h2>
+		<div class="fling-minislide">
+			<img src="Pics/theHappening.jpg" alt="Slide 5" />
 
-		<p>Slideshow 1:</p>
-		<div class="slideshow-container">
-			<div class="mySlides1">
-				<img src="Pics/theHappening.jpg" style="width:30%">
-			</div>
+			<img src="Pics/SouthPark.jpg" alt="Slide 4" />
 
-			<div class="mySlides1">
-				<img src="img_snow_wide.jpg" style="width:100%">
-			</div>
+			<img src="Pics/EnemyofSate.jpg" alt="Slide 3" />
 
-			<div class="mySlides1">
-				<img src="img_mountains_wide.jpg" style="width:100%">
-			</div>
+			<img src="Pics/Hotel_Rwanda.jpg" alt="Slide 2" />
 
-			<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-		</div>
-
-		<script src="slideshow.js"></script>
-
-		<div class="right">
-			<h2>About</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+			<img src="Pics/Dayofthedead.jpg" alt="Slide 1" />
 		</div>
 
 	</div>
-</body>
 
-</html>
+	<h2>Paragraph Tags</h2>
+	1. This is how a <br /> break tag behaves.<br />
+	2. This is how a <p> paragraph tag </p> behaves. <br />
+	3. This is how a <div> division tag </div> behaves. <br />
+	4. This is how a <span> span tag </span> behaves. <br />
+
+	<h2>Character Tags</h2>
+	Emphasis: Let me <em>emphasize</em> how easy this is. <br />
+	Italics: Anyone can add <i>italics</i>. <br />
+	Bold: Be <b>bold<b> and learn HTML. <br />
+			Preformatted Text: <br />
+			<pre>
+AN HTML HAIKU
+This is so easy
+Who new that structured markup
+Could be so simple
+</pre><br />
+		</b>
+	</b>
+</body></html>

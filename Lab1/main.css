@@ -1,5 +1,8 @@
 body {
 	background-color: #978ABF;
+	text-align: center;
+	font-family: 'Odibee Sans', cursive;
+	font-size: 20px;
 }
 
 h1 {
@@ -12,7 +15,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-family: 'Noto Sans TC', sans-serif;
-	color: #6E86CC;
+	color: black;
 	font-size: 25px;
 }
 
@@ -27,6 +30,14 @@ p {
 	text-align: center;
 	font-family: 'Dosis', sans-serif;
 	font-size: 22px;
+}
+
+table {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-collapse: collapse;
+	border-bottom: 1px solid #ddd;
 }
 
 * {
@@ -56,75 +67,60 @@ p {
 	padding: 0 20px;
 }
 
-.right {
-	background-color: #e5e5e5;
-	float: left;
-	width: 20%;
-	padding: 15px;
-	margin-top: 7px;
-	text-align: center;
-}
-
 @media only screen and (max-width:620px) {
 
 	/* For mobile phones: */
 	.menu,
 	.main,
 	.right {
-		width: 100%;
+		width: 50%;
 	}
 }
 
-* {
-	box-sizing: border-box
-}
+/*For Slide Show*/
 
-* {
-	box-sizing: border-box
-}
-
-.mySlides1,
-.mySlides2 {
-	display: none
-}
-
-img {
-	vertical-align: middle;
-}
-
-/* Slideshow container */
-.slideshow-container {
-	max-width: 1000px;
+.fling-minislide {
+	width: 400px;
+	height: 600px;
+	overflow: hidden;
 	position: relative;
-	margin: auto;
+	text-align: start;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-	cursor: pointer;
+.fling-minislide img {
 	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
+	animation: fling-minislide 20s infinite;
+	opacity: 0;
+	width: 100%;
+	height: auto;
 }
 
-/* Position the "next button" to the right */
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
+@keyframes fling-minislide {
+	25% {
+		opacity: 1;
+	}
+
+	40% {
+		opacity: 0;
+	}
 }
 
-/* On hover, add a grey background color */
-.prev:hover,
-.next:hover {
-	background-color: #f1f1f1;
-	color: black;
+.fling-minislide img:nth-child(5) {
+	animation-delay: 5s;
+}
+
+.fling-minislide img:nth-child(4) {
+	animation-delay: 10s;
+}
+
+.fling-minislide img:nth-child(3) {
+	animation-delay: 15s;
+}
+
+.fling-minislide img:nth-child(2) {
+	animation-delay: 20s;
+}
+
+.fling-minislide img:nth-child(1) {
+	animation-delay: 25s;
 }
