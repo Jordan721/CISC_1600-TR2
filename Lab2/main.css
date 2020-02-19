@@ -1,25 +1,28 @@
  body {
  	margin: 0px;
- 	font-family: 'segoe ui';
- 	background-color: #655C80;
+ 	font-family: 'Righteous', cursive;
+ 	background-color: #FFB6A3;
  	text-align: center;
- 	font-size: 25px;
+ 	font-size: 30px;
  }
 
  h1 {
  	text-align: center;
  	font-family: 'Tomorrow', sans-serif;
- 	color: #CAB8FF;
+ 	color: #697CB3;
  }
 
  table {
- 	color: #978ABF;
- 	box-sizing: border-box;
+ 	color: white;
  	width: 50%;
- 	margin-left: 30%;
- 	margin-right: 15%;
- 	border-collapse: collapse;
- 	border-bottom: 1px solid #ddd;
+ 	margin-left: 25%;
+ 	font-weight: bold;
+ 	background-color: #6E86CC;
+ 	font-family: 'Lacquer', sans-serif;
+ }
+
+ tr1 {
+ 	text-decoration: underline overline;
  }
 
  .caution {
