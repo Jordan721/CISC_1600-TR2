@@ -21,6 +21,12 @@
  	font-family: 'Lacquer', sans-serif;
  }
 
+ table {
+ 	width: 200%;
+ 	margin-left: 30%;
+ 	margin-right: 15%;
+ }
+
  tr1 {
  	text-decoration: underline overline;
  }

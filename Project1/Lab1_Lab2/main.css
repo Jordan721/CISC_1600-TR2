@@ -1,37 +1,73 @@
 body {
-	background-color: #345385;
+	background-color: #978ABF;
+	text-align: center;
+	font-family: 'Odibee Sans', cursive;
+	font-size: 20px;
 }
 
-h1,
+h1 {
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	color: #697CB3;
+	font-size: 42px;
+}
+
 h2 {
 	text-align: center;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: black;
+	font-size: 25px;
+}
+
+h3 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: crimson;
+	font-size: 25px;
 }
 
 p {
-	color: white;
-	font-weight: bold;
-	font-family: 'Odibee Sans', cursive;
-	font-size: 20px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+}
+
+.caution {
+	font-size: 200%;
+	color: Red
 }
 
 table {
-	font-weight: bold;
-	font-size: 20px;
-	font-family: 'Odibee Sans', cursive;
-	color: white;
+	width: 200%;
+	margin-left: 30%;
+	margin-right: 15%;
 }
 
-/*Putting text in blocks*/
+
+.menu {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.menu a {
+	background-color: #e5e5e5;
+	padding: 8px;
+	margin-top: 7px;
+	display: block;
+	width: 75%;
+	color: grey;
+	font-family: 'Odibee Sans', cursive;
+	font-size: 20px;
+}
 
 .main {
 	float: left;
-	width: 60%;
+	width: 25%;
 	padding: 0 20px;
 }
 
 .right {
-	background-color: #73A9FF;
 	float: left;
 	width: 20%;
 	padding: 15px;
@@ -39,12 +75,21 @@ table {
 	text-align: center;
 }
 
+@media only screen and (max-width:620px) {
+
+	/* For mobile phones: */
+	.menu,
+	.main {
+		width: 40%;
+	}
+}
+
 /*For Nav Bar*/
 
 .nav {
 	height: 50px;
 	width: 100%;
-	background-color: #606C80;
+	background-color: #B5A5E6;
 	position: relative;
 }
 
@@ -138,53 +183,52 @@ table {
 	}
 }
 
+
+
 /*For Slide Show*/
-* {
-	box-sizing: border-box
-}
 
-.mySlides1,
-.mySlides2 {
-	display: none
-}
-
-img {
-	vertical-align: middle;
-}
-
-/* Slideshow container */
-.slideshow-container {
-	max-width: 1000px;
+.fling-minislide {
+	width: 400px;
+	height: 600px;
+	overflow: hidden;
 	position: relative;
-	margin: auto;
+	text-align: start;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-	cursor: pointer;
+.fling-minislide img {
 	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
+	animation: fling-minislide 20s infinite;
+	opacity: 0;
+	width: 100%;
+	height: auto;
 }
 
-/* Position the "next button" to the right */
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
+@keyframes fling-minislide {
+	25% {
+		opacity: 1;
+	}
+
+	40% {
+		opacity: 0;
+	}
 }
 
-/* On hover, add a grey background color */
-.prev:hover,
-.next:hover {
-	background-color: #f1f1f1;
-	color: black;
+.fling-minislide img:nth-child(5) {
+	animation-delay: 5s;
+}
+
+.fling-minislide img:nth-child(4) {
+	animation-delay: 10s;
+}
+
+.fling-minislideimg:nth-child(3) {
+	animation-delay: 15s;
+}
+
+.fling-minislide img:nth-child(2) {
+	animation-delay: 20s;
+}
+
+.fling-minislide img:nth-child(1) {
+	animation-delay: 25s;
 }
