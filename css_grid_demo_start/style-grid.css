@@ -1,0 +1,50 @@
+@media screen and (min-width: 1000px) {
+
+    /*
+Parent
+*/
+    .site {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto repeat(3, 1fr);
+    }
+
+    /*
+Child
+*/
+    .masthead {
+        grid-column: 1/3;
+    }
+
+    /*
+Child
+*/
+    .page-title {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    /*
+Child
+*/
+    .sidebar {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    /*
+Child
+*/
+    .main-content {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    /*
+Child
+*/
+    .footer-content {
+        grid-column: 1/3;
+    }
+}
+
