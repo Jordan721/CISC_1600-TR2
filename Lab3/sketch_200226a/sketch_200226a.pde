@@ -20,11 +20,11 @@ else if ( key == 'A'|| key == 'a' ) {
 background( #0099B3 );
 }
 //Burning Orange
-else if ( key == 'B'|| key == 'b' ) {
+else if ( key == 'O'|| key == 'o' ) {
 background( #FF7A40 );
 }
 //Thunderbird
-else if ( key == 'R'|| key == 'r' ) {
+else if ( key == 'T'|| key == 't' ) {
 background( #CC3214 );
 }
 }

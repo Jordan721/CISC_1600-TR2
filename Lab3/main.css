@@ -7,6 +7,11 @@ body {
     background-color: gray;
 }
 
+p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
 canvas {
     padding-left: 0;
     padding-right: 0;
