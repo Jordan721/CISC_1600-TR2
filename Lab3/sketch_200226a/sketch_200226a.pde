@@ -1,5 +1,5 @@
 void setup() {
-background( #000000 );
+background( #FF8F94);
  size( 500, 500 );
 }
 void draw() {
