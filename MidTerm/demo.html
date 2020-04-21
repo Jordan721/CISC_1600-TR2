@@ -1,0 +1,109 @@
+<!--Jordan's CISC 1600-TR2 MidTerm PT.1-->
+<!Doctype HTML>
+<html>
+
+<head>
+	<title>CISC 1600-TR2 Test Page</title>
+	<link rel="stylesheet" href="demo_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<a href="/index.html" class="active">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Project 1
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="/Project1_Jordan_Alexis/Lab1_Lab2/lab1.html">Lab 1</a>
+				<a href="/Project1_Jordan_Alexis/Lab1_Lab2/lab2.html">Lab 2</a>
+				<a href="/Project1_Jordan_Alexis/aboutme.html">About Me</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Project 2
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="/Lab3/index.html">Lab 3</a>
+				<a href="/Lab4/index.html">Lab 4</a>
+				<a href="/Lab5/index.html">Lab 5</a>
+				<a href="Project2_Jordan_Alexis/index.html">Interactive Animation</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Midterm
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			</div>
+		</div>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<h1>My Demo Page</h1>
+	<p>This is some text in a paragraph.</p>
+	<p>This is another paragraph.</p>
+	<hr noshade>
+
+	<img src="img_test.jpg" alt="Bussiness Man">
+	<br>
+
+	<h2>My Table</h2>
+	<br>
+	<table id="t01">
+		<tr>
+			<th>Name</th>
+			<th>E-Mail</th>
+			<th>Phone</th>
+		</tr>
+		<tr>
+			<td>Doe,John</td>
+			<td>jdoe@example.com</td>
+			<td>555-789-7222</td>
+		</tr>
+		<tr>
+			<td>Smith,Eva</td>
+			<td>esmith@example.com</td>
+			<td>555-344-3693</td>
+		</tr>
+	</table>
+
+	<hr noshade>
+
+	<h3>My Links and Lists</h3>
+
+	<br>
+
+	<p>Vist <a href="https://www.w3schools.com/">W3 Schools</a> or <a href="https://www.google.com/">Google</a></p>
+	
+	<p>What you shold already know:</p>
+	
+	<p>I. HTML</p>
+	
+	<p>II. CSS</p>
+	
+	<p>III. Web Design</p>
+	
+	<br>
+	
+	<p>What you will learn:</p>
+	
+	<p>* Processing</p>
+	<p>* Multimedia Presentation</p>
+	<p>* Game Programming</p>
+
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+</body></html>
